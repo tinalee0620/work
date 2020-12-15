@@ -111,7 +111,7 @@ a, a:visited {
 b, strong, label {
     font-weight: 600;
     font-size: 18px;
-    color: #6d6d6d;
+    color: #474747;
 }
 
 .full-height {
@@ -168,7 +168,7 @@ section.pt-page {
     scrollbar-width: thin;
 }
 
-section.pt-page .scroll___content {
+ .scroll___content {
     padding: 30px 0;
 }
 
@@ -1492,7 +1492,7 @@ body.small_menu .menu_list a:after {
     letter-spacing: 0.3px;
     margin-top: 10px;
     margin-right: 15px;
-    margin-left: 15px;
+    margin-left: 5px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     min-width: 140px;
@@ -1893,6 +1893,7 @@ li.active_filter:after {
 .modal.in .modal-dialog {
     position: relative;
     width: 600px;
+    
     margin: 15% auto;
    
 }

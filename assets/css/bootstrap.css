@@ -5898,7 +5898,8 @@ button.close {
   overflow-x: hidden;
   overflow-y: auto;
   background-color: rgba(78, 78, 78, 0.3);
-  
+  max-height: 100%;
+  overflow: scroll;
 }
 .modal-dialog {
   position: relative;
@@ -5967,7 +5968,9 @@ button.close {
   margin-bottom: 20px;
   margin-top: -10px;
 }
-
+.modal-body .content .b{
+  font-size: 15px;
+}
 .modal-footer {
   padding: 15px;
   text-align: right;
@@ -5998,7 +6001,7 @@ button.close {
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
             box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-            height: 600px;
+            height: 800px;
   }
   .modal-sm {
     width: 300px;
