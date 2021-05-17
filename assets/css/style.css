@@ -823,11 +823,13 @@ span.home--line:nth-child(3){
     display: inline-block;
     text-align: left;
     margin-top: 30px;
+   
 }
 
 .home_type .more_info .item {
     border-bottom: 1px dashed rgba(255, 255, 255, 0.29);
     padding: 15px 7px;
+    
 }
 
 .home_type .more_info .item:first-of-type {
@@ -865,11 +867,13 @@ span.home--line:nth-child(3){
     transition: all 0.3s ease-in-out;
     min-width: 140px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .home_type .more_info a.bgColor:hover {
 	background-color: transparent;
     border-color: #202649;
+    border-radius: 10px;
     
 }
 .home_type .more_info a:hover{
@@ -966,7 +970,7 @@ span.home--line:nth-child(3){
 .profile img {
     max-height: 100%;
     border: 2px solid #44639c;
-    border-radius: 50%;
+    border-radius: 10px;
     padding: 5px;
     background-color: #fff;
 }
@@ -1160,7 +1164,7 @@ body.small_menu .menu_list a:after {
 .about .about__img {
     padding: 12px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.12); */
 }
 
 .about p {
